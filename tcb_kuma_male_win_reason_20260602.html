@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TCBクマ再生注射男性記事 勝ち理由言語化</title>
+  <style>
+    :root {
+      --bg: #f4f6fb;
+      --paper: #ffffff;
+      --ink: #202733;
+      --muted: #667085;
+      --line: #dbe3ef;
+      --blue: #1649c7;
+      --blue-soft: #e9efff;
+      --navy: #17233f;
+      --gold: #b7791f;
+      --gold-soft: #fff7e6;
+      --red: #c9362c;
+      --shadow: 0 18px 46px rgba(30, 48, 89, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        linear-gradient(180deg, #eaf0ff 0, rgba(244, 246, 251, 0.2) 340px),
+        var(--bg);
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "YuGothic", "Noto Sans JP", sans-serif;
+      line-height: 1.85;
+      letter-spacing: 0;
+    }
+
+    a {
+      color: var(--blue);
+    }
+
+    .page {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 40px 20px 72px;
+    }
+
+    header,
+    section {
+      background: rgba(255, 255, 255, 0.94);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    header {
+      padding: 34px 40px;
+    }
+
+    section {
+      margin-top: 24px;
+      padding: 30px 38px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      color: var(--navy);
+      font-size: clamp(28px, 4vw, 42px);
+      line-height: 1.28;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 0 0 20px;
+      padding-left: 14px;
+      border-left: 5px solid var(--blue);
+      color: var(--navy);
+      font-size: 24px;
+      line-height: 1.45;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 28px 0 10px;
+      color: #26324a;
+      font-size: 18px;
+      line-height: 1.5;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul,
+    ol {
+      margin: 10px 0 18px;
+      padding-left: 1.35em;
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
+    strong {
+      color: var(--navy);
+    }
+
+    .lead {
+      max-width: 850px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 20px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--blue-soft);
+      color: #12398f;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 300px;
+      gap: 24px;
+      align-items: start;
+      margin-top: 24px;
+    }
+
+    nav {
+      position: sticky;
+      top: 16px;
+      padding: 18px;
+      background: rgba(255, 255, 255, 0.94);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    nav h2 {
+      margin: 0 0 12px;
+      padding: 0;
+      border: 0;
+      font-size: 15px;
+    }
+
+    nav ol {
+      margin: 0;
+      padding-left: 20px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    nav li {
+      margin: 7px 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin: 18px 0;
+    }
+
+    .card {
+      padding: 16px;
+      background: #fbfcff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    .card strong {
+      display: block;
+      margin-bottom: 7px;
+      color: #12398f;
+    }
+
+    .note {
+      margin: 18px 0;
+      padding: 16px 18px;
+      background: var(--gold-soft);
+      border: 1px solid #f0d8a8;
+      border-left: 5px solid var(--gold);
+      border-radius: 8px;
+      color: #67450f;
+    }
+
+    .quote {
+      margin: 18px 0;
+      padding: 18px;
+      background: #f1f5ff;
+      border: 1px solid #cfdaf5;
+      border-radius: 8px;
+      color: #26324a;
+      font-weight: 700;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      margin-top: 16px;
+    }
+
+    table {
+      width: 100%;
+      min-width: 720px;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    th,
+    td {
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: var(--blue-soft);
+      color: #12398f;
+      white-space: nowrap;
+    }
+
+    .figure {
+      overflow: hidden;
+      margin: 18px 0;
+      background: #eef2f8;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    .figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .caption {
+      margin: 0;
+      padding: 10px 12px;
+      color: var(--muted);
+      background: #fff;
+      border-top: 1px solid var(--line);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .gallery .figure {
+      margin: 0;
+    }
+
+    .footer {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+
+    @media (max-width: 920px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      nav {
+        position: static;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .page {
+        padding: 22px 12px 48px;
+      }
+
+      header,
+      section {
+        padding: 24px 18px;
+      }
+
+      .grid,
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>TCBクマ再生注射男性記事 勝ち理由言語化</h1>
+      <p class="lead">
+        対象記事「★027_TCB-クマ再生注射男性_0円_寒竹_M2向け_BU_メガネ男_PU_20260220」について、
+        制作者の発話をもとに、マクロ要因とミクロ要因を整理した資料。
+        本文は制作者本人の考えを整理したもの。
+      </p>
+      <div class="tag-row">
+        <span class="tag">M2男性</span>
+        <span class="tag">クマ再生注射</span>
+        <span class="tag">ターゲットずらし</span>
+        <span class="tag">FV分析</span>
+        <span class="tag">美容医療の心理ハードル</span>
+      </div>
+    </header>
+
+    <div class="layout">
+      <article>
+        <section id="summary">
+          <h2>結論</h2>
+          <p>
+            今回の記事が売れた大きな理由は、男性全般向けではなく、
+            40代以上のM2層男性にターゲットをずらしたこと。
+            「老け見えしてきたおじさん」に対して、
+            その原因はクマかもしれないと提示し、クマ取り注射を自分ごと化させた。
+          </p>
+          <p>
+            ミクロでは、問題提起、解決策紹介、施術説明、カウンセリングパートまで一貫して、
+            「おじさんとは何か」「何に足踏みしているのか」を噛み砕いている。
+            文章では、本音の恥ずかしさと建前の忙しさを分けて扱い、
+            ビジュアルでは人間素材を徹底的に40代以上男性へ寄せた。
+          </p>
+          <div class="grid">
+            <div class="card">
+              <strong>マクロの勝ち筋</strong>
+              男性全般ではなく、老け見えを気にし始めたM2男性に絞った。
+            </div>
+            <div class="card">
+              <strong>構成の勝ち筋</strong>
+              テレビ情報番組風の問題提起で、周囲からの見られ方を刺した。
+            </div>
+            <div class="card">
+              <strong>心理の勝ち筋</strong>
+              「男が美容クリニックに行っていいのか」という恥ずかしさを、同年代男性の人気・声で下げた。
+            </div>
+            <div class="card">
+              <strong>ビジュアルの勝ち筋</strong>
+              公式っぽい素材まで徹底しておじさん化し、男性読者の違和感を消した。
+            </div>
+          </div>
+        </section>
+
+        <section id="macro">
+          <h2>1. マクロ要因</h2>
+          <h3>1-1. 男性全般からM2層へターゲットをずらした</h3>
+          <p>
+            この記事は、40代以上の男性、いわゆるM2層に向けたクマ取り注射の記事。
+            これまでのクマ取り注射男性記事は、全年齢の男性に向けて書いていた。
+            ただ、男性と一口に言っても、若い男性、おじさん、おじいちゃんでは悩みも刺さる言葉も違う。
+          </p>
+          <p>
+            今回は「ちょっと老け見えしてきたおじさん」に向けて、
+            「その老け見え、クマが原因かもしれないですよ」というコンセプトにした。
+            広く男性に当てるのではなく、M2層のおじさんに刺さる記事として作ったことが大きな背景。
+          </p>
+
+          <h3>1-2. 競合や既存記事の穴を見つけた</h3>
+          <p>
+            既存のクマ取り注射男性記事は、全年齢男性を対象にした広い記事が多かった。
+            特定の年齢層に強く刺しにいくというより、どの層にも当てようとした、ありきたりな男性向け記事だった。
+          </p>
+          <p>
+            そこで「男性向け」ではなく「おじさん向け」にターゲットをずらすことで、
+            競合や既存記事との差分を作れると考えた。
+          </p>
+
+          <h3>1-3. 027記事は、おじさん理解を深めたブラッシュアップ</h3>
+          <p>
+            027の記事は完全な新規ではなく、もともと「おじ向けに書こう」として作った記事のブラッシュアップ。
+            そこからさらに「おじさんとは何か」に着目して、中身、ファーストビュー、心理状況を詰め直した。
+          </p>
+          <ul>
+            <li>おじさん向けのファーストビュー</li>
+            <li>老け見えに対する不安</li>
+            <li>美容クリニックへ行く恥ずかしさ</li>
+            <li>何を心配しているのか</li>
+            <li>どんな見せ方なら自分ごと化するのか</li>
+          </ul>
+          <p>
+            このように、M2男性の心理へ寄せてブラッシュアップした結果、かなり売れた。
+          </p>
+        </section>
+
+        <section id="micro-structure">
+          <h2>2. ミクロ要因：構成・文章</h2>
+          <div class="figure">
+            <img src="assets/tcb_kuma_male_20260602/page-01.png" alt="クマ取り注射男性記事のファーストビュー">
+            <p class="caption">FVでは、40代以上男性への呼びかけ、切らない治療、0円、Before/Afterをまとめて見せている。</p>
+          </div>
+
+          <h3>2-1. 問題提起はテレビ情報番組風にした</h3>
+          <p>
+            特にこだわったのは、「見た目年齢を左右するクマがもたらす印象とは？」という問題提起の部分。
+            40代以降の男性は、SNSよりもテレビや新聞から情報を得ることに慣れている世代だと考えた。
+            テレビや新聞のようなマスメディアの情報を、正しい情報として受け取りやすい世代ではないかという仮説がある。
+          </p>
+          <p>
+            そのため、クマがあることで周りの人からどう見られているかを、
+            テレビの情報番組風の見せ方で作成した。
+            「突撃 クマがある男性どう思う？」のような見せ方で、
+            女性たちが「疲れているのかと思いました」「私より年上だと思いました」と話す構成にしている。
+          </p>
+          <p>
+            単に「クマがあると老けて見えます」と説明するのではなく、
+            「周りの人から実際にこう見られているかもしれない」という悲しい衝撃的な真実として見せている。
+          </p>
+
+          <h3>2-2. 「なくせるものならクマなくしたい」で心の声を代弁した</h3>
+          <p>
+            問題提起の直後に入れている「それはなくせるものならクマなくしたい」という一言も重要。
+            クマがあるおじさんは、そもそも自分のクマを「取れるもの」だと思っていないのではないかという仮説があった。
+          </p>
+          <p>
+            女性向けであれば「なくすためにあれこれ試したけどダメだった」という努力への共感を入れることが多い。
+            しかし今回はそこでは共感していない。
+            ターゲット男性は、そもそもクマを取れるものだと思っていない可能性があるため、
+            「なくせるものならなくしたい」という心の声を代弁している。
+          </p>
+
+          <h3>2-3. 解決策紹介では「同年代男性もやっている」を全面に出した</h3>
+          <p>
+            「そんなあなたにおすすめなのが」という流れで解決策を紹介する時、
+            クマ取り注射そのものを説明するだけではなく、
+            「あなたと同じような人たちが、すでにやっている施術なんですよ」という見せ方を強く出した。
+          </p>
+          <ul>
+            <li>40代以降の男性に人気</li>
+            <li>同じ悩みを抱える</li>
+            <li>40代男性の間で注目</li>
+            <li>同年代にぜひすすめたい施術</li>
+          </ul>
+          <p>
+            M2層男性には、美容クリニックや美容整形に行くことへの抵抗がある。
+            「女性が行くもの」「男が行ったら浮かないか」「この年齢で美容施術は恥ずかしい」という考えがあると想定している。
+            だからこそ、「あなたの他にも仲間がいますよ」「同年代の男性もやっていますよ」と見せる必要がある。
+          </p>
+
+          <h3>2-4. 解決策パートでも情報番組風の声を使った</h3>
+          <p>
+            問題提起パートと同じく、解決策パートでもテレビの情報番組風の見せ方をしている。
+            「老けクマ悩みに終止符へ」「男性から喜びの声」のようなタイトルをつけ、
+            40代男性に近いシチュエーションの声を入れている。
+          </p>
+          <p>
+            たとえば、奥さんから「若返ったね」と言われた旦那さんの声や、
+            会社の同僚に勧められてやってみた男性の声。
+            奥さんや会社の同僚という登場人物を出すことで、ターゲットの生活に近い場面に落とし込んでいる。
+          </p>
+
+          <h3>2-5. 「忙しい男性でも」は建前に寄り添う言葉</h3>
+          <p>
+            記事後半のクマ取り注射の説明パートでは、
+            「切らないから忙しい男性でも行きやすい」という一文にこだわった。
+            クマ取り注射に行かない男性の本音としては、
+            「恥ずかしい」「美容クリニックに男が行ったら浮かないか」という気持ちが大きいと考えている。
+          </p>
+          <p>
+            ただし、男性がそれをそのまま口に出すとは限らない。
+            「恥ずかしいからです」とは言いづらく、代わりに「仕事が忙しいから」「時間がないから」という建前を言う可能性が高い。
+            そのため、ここでは本音の恥ずかしさに直接触れるのではなく、あえて建前に寄り添っている。
+          </p>
+          <p>
+            序盤では「同年代の男性も行っている」「男性から喜びの声」などで本音の恥ずかしさを下げる。
+            後半では「忙しい男性でも行きやすい」で、建前側の不安に寄り添う。
+            これは単なる利便性訴求ではなく、男性読者に「忙しいから行けないという俺の気持ちを分かってくれている」と感じてもらうための言葉。
+          </p>
+
+          <h3>2-6. カウンセリングパートを厚めに入れた</h3>
+          <p>
+            記事後半で大きくこだわったのは、カウンセリングのシーンを厚めに入れたこと。
+            CTAボタンの後に「興味はあるけど、少し不安だな」という男性の懸念の声を入れたうえで、
+            「お悩み相談のみ大歓迎」「無料カウンセリングの予約がおすすめ」というパートに進めている。
+          </p>
+          <p>
+            今回のターゲットは、美容クリニックに行ったことがなく、
+            美容クリニックに行くことを少し恥ずかしがって足踏みしている男性。
+            そういう男性に行ってもらうには、
+            「大丈夫だよ」「来ていいよ」という言葉だけでは足りない。
+            実際にクリニックではどんなことをしているのか、院内はどんな雰囲気なのか、
+            どんな人がいて、何をされるのかを見せる必要がある。
+          </p>
+          <p>
+            さらに、「他の人に会わないようにスムーズに案内します」など、
+            周りの目に配慮していることも入れている。
+            女性向けの記事では基本的に入れないが、今回の男性記事では、ターゲット特有の不安に合わせて入れている。
+          </p>
+        </section>
+
+        <section id="micro-visual">
+          <h2>3. ミクロ要因：画像・デザイン</h2>
+          <h3>3-1. 人間素材を徹底的におじさんにした</h3>
+          <p>
+            この記事全体でこだわったのは、BA画像、Before/After画像、リソース動画、口コミに出てくる男性など、
+            人間が出てくる素材を徹底的に「おじさん」にしたこと。
+            今回の記事は40代以上のM2層男性に向けた記事なので、記事内に出てくる人物素材もターゲットに近い年齢・性別に合わせる必要があると考えた。
+          </p>
+          <p>
+            TCBから提供される素材には、若い女性や女性モニターの素材が多い。
+            ただ、今回の記事で女性素材をそのまま使ってしまうと、40代男性の読者が「やっぱり女性が行くところじゃん」と感じてしまう可能性がある。
+            これは、今回の記事で払拭したい「美容クリニックは女性が行く場所ではないか」という不安を逆に強めてしまう。
+          </p>
+          <p>
+            そのため、提供素材が女性だった場合でも、そのまま使わず、AIを使って男性化した。
+            公式っぽく見える素材まで徹底的におじさんにすることで、
+            「本当に男性も行っているんだ」「本当におじさんが受けているんだ」「自分と近い人の話なんだ」と感じてもらう。
+          </p>
+
+          <h3>3-2. FV上部の「40代以上の男性急増中!?」</h3>
+          <p>
+            FVの一番上には「40代以上の男性急増中!?」という帯を入れた。
+            この言葉を置いた理由は、今回ターゲットとしている40代以上の男性に、
+            「あ、自分のことだ」と思ってもらうため。
+            「この記事はあなたのために書いていますよ」と最初に伝えるためのワードとして入れている。
+          </p>
+          <div class="note">
+            振り返ると、この文言には改善余地もある。
+            「40代以上の男性急増中!?」だけでは、何が急増しているのかが分かりづらく、
+            記事に入ってきた直後の読者には少し自分ごと化されづらい可能性もある。
+          </div>
+
+          <h3>3-3. 眼鏡ありおじさんFVが勝った</h3>
+          <p>
+            今回は中身は同じで、FVだけ異なる記事を作った。
+            1つは今回の027番で使っている眼鏡をかけたおじさん。
+            もう1つは同じモデルで、眼鏡をかけず、目の下のクマ部分を触って「おお」と感動しているような表情のバージョン。
+          </p>
+          <p>
+            結果としては、眼鏡をかけたおじさんの方が何倍も良く、FV離脱率もかなり低かった。
+            当初は、眼鏡ありのおじさんがここまで良いとは思っていなかった。
+            なぜなら、眼鏡をかけていることで肝心のクマ部分が見えづらいから。
+          </p>
+          <p>
+            しかし結果から考えると、読者は単純に「クマがある/ない」を見て反応しているのではなく、
+            もっと根本的に「かっこいい」「イケおじ」「魅力的」という理想像に反応しているのではないか。
+          </p>
+          <p>
+            眼鏡ありのおじさんの方が、スーツをピシッと着て、眼鏡をかけて、髭があり、ダンディーでイケおじ感がある。
+            クマの有無を分かりやすく見せるよりも、
+            「自分もこういうイケおじになれるかもしれない」という理想像を提示できたことが強かった可能性がある。
+          </p>
+
+          <h3>3-4. 院内写真も男性が親しみやすいものを選んだ</h3>
+          <p>
+            院内写真もただ載せればいいわけではない。
+            TCBは華やかでカラフルな内装の院もあり、男性向け記事では女性向けに見えすぎる可能性がある。
+            そこで、男性にも親しみやすそうなシックな内装の院を選んで掲載した。
+          </p>
+          <p>
+            目的は、読者に「ここなら行っても浮かなさそう」と感じてもらうこと。
+            院内の様子を見せること自体が不安払拭だが、その写真選びもターゲット男性に合わせている。
+          </p>
+        </section>
+
+        <section id="rules">
+          <h2>4. 次回制作に活かすルール</h2>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>観点</th>
+                  <th>今回の学び</th>
+                  <th>次回の確認事項</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ターゲット</td>
+                  <td>男性全般ではなく、M2層の老け見え悩みに絞ることで刺さった。</td>
+                  <td>「男性向け」で止めず、年齢・生活・恥ずかしさまで分解しているか。</td>
+                </tr>
+                <tr>
+                  <td>問題提起</td>
+                  <td>テレビ情報番組風にすることで、M2層が受け取りやすい見せ方にした。</td>
+                  <td>ターゲットが慣れている情報媒体の文脈を使えているか。</td>
+                </tr>
+                <tr>
+                  <td>解決策紹介</td>
+                  <td>同年代男性もやっていると見せ、美容クリニックに行く恥ずかしさを下げた。</td>
+                  <td>「あなたの仲間もやっている」と伝える要素があるか。</td>
+                </tr>
+                <tr>
+                  <td>言葉選び</td>
+                  <td>本音の恥ずかしさと、建前の忙しさを分けて扱った。</td>
+                  <td>読者が口に出せる建前にも寄り添っているか。</td>
+                </tr>
+                <tr>
+                  <td>素材</td>
+                  <td>人間素材を徹底的におじさんにし、女性向けに見える違和感を消した。</td>
+                  <td>提供素材をそのまま使わず、ターゲットに合う人間素材へ寄せているか。</td>
+                </tr>
+                <tr>
+                  <td>FV</td>
+                  <td>クマの見えやすさより、イケおじ理想像が刺さった可能性がある。</td>
+                  <td>症状だけでなく、ターゲットがなりたい人物像を見せているか。</td>
+                </tr>
+                <tr>
+                  <td>カウンセリング</td>
+                  <td>院内・相談シーン・周りの目への配慮を厚めに見せた。</td>
+                  <td>行ったことがない場所への不安を、事前情報で減らしているか。</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section id="gallery">
+          <h2>5. 記事スクリーンショット</h2>
+          <p>
+            参照用に、PDFから画像化した記事全体を掲載する。
+            分析本文は上部、実際の記事構成は以下の画像で確認できる。
+          </p>
+          <div class="gallery">
+            <div class="figure"><img src="assets/tcb_kuma_male_20260602/page-01.png" alt="記事スクリーンショット 1"><p class="caption">1 / 17</p></div>
+            <div class="figure"><img src="assets/tcb_kuma_male_20260602/page-02.png" alt="記事スクリーンショット 2"><p class="caption">2 / 17</p></div>
+            <div class="figure"><img src="assets/tcb_kuma_male_20260602/page-03.png" alt="記事スクリーンショット 3"><p class="caption">3 / 17</p></div>
+            <div class="figure"><img src="assets/tcb_kuma_male_20260602/page-04.png" alt="記事スクリーンショット 4"><p class="caption">4 / 17</p></div>
+            <div class="figure"><img src="assets/tcb_kuma_male_20260602/page-05.png" alt="記事スクリーンショット 5"><p class="caption">5 / 17</p></div>
+            <div class="figure"><img src="assets/tcb_kuma_male_20260602/page-06.png" alt="記事スクリーンショット 6"><p class="caption">6 / 17</p></div>
+            <div class="figure"><img src="assets/tcb_kuma_male_20260602/page-07.png" alt="記事スクリーンショット 7"><p class="caption">7 / 17</p></div>
+            <div class="figure"><img src="assets/tcb_kuma_male_20260602/page-08.png" alt="記事スクリーンショット 8"><p class="caption">8 / 17</p></div>
+            <div class="figure"><img src="assets/tcb_kuma_male_20260602/page-09.png" alt="記事スクリーンショット 9"><p class="caption">9 / 17</p></div>
+            <div class="figure"><img src="assets/tcb_kuma_male_20260602/page-10.png" alt="記事スクリーンショット 10"><p class="caption">10 / 17</p></div>
+            <div class="figure"><img src="assets/tcb_kuma_male_20260602/page-11.png" alt="記事スクリーンショット 11"><p class="caption">11 / 17</p></div>
+            <div class="figure"><img src="assets/tcb_kuma_male_20260602/page-12.png" alt="記事スクリーンショット 12"><p class="caption">12 / 17</p></div>
+            <div class="figure"><img src="assets/tcb_kuma_male_20260602/page-13.png" alt="記事スクリーンショット 13"><p class="caption">13 / 17</p></div>
+            <div class="figure"><img src="assets/tcb_kuma_male_20260602/page-14.png" alt="記事スクリーンショット 14"><p class="caption">14 / 17</p></div>
+            <div class="figure"><img src="assets/tcb_kuma_male_20260602/page-15.png" alt="記事スクリーンショット 15"><p class="caption">15 / 17</p></div>
+            <div class="figure"><img src="assets/tcb_kuma_male_20260602/page-16.png" alt="記事スクリーンショット 16"><p class="caption">16 / 17</p></div>
+            <div class="figure"><img src="assets/tcb_kuma_male_20260602/page-17.png" alt="記事スクリーンショット 17"><p class="caption">17 / 17</p></div>
+          </div>
+        </section>
+      </article>
+
+      <nav aria-label="目次">
+        <h2>目次</h2>
+        <ol>
+          <li><a href="#summary">結論</a></li>
+          <li><a href="#macro">マクロ要因</a></li>
+          <li><a href="#micro-structure">構成・文章</a></li>
+          <li><a href="#micro-visual">画像・デザイン</a></li>
+          <li><a href="#rules">次回ルール</a></li>
+          <li><a href="#gallery">記事画像</a></li>
+        </ol>
+      </nav>
+    </div>
+
+    <p class="footer">
+      Source: screencapture-beautiful-best-org-ab-ceUnhQDfgvCVPOdXJA-2026-06-02-08_44_30.pdf
+    </p>
+  </main>
+</body>
+</html>
